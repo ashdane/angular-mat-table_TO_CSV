@@ -6,7 +6,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTableExporterModule } from 'mat-table-exporter';
 import { MatTableDataSource } from '@angular/material/table';
-export interface PeriodicElement {
+
+//this is for defining what all values will be taken by the columns of our table
+export interface PElement {
   id: number,
   PV: string;
   Model: string;
@@ -19,7 +21,8 @@ export interface PeriodicElement {
   MAPE: number;
 }
 
-const ELEMENT_DATA: PeriodicElement[] = [
+//here we are giving in the data manually
+const ELEMENT_DATA: PElement[] = [
     {
       id: 1,
       PV: "A Denitration Inlet Outlet CO_H0761588",
@@ -126,7 +129,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrl: './table2.component.css'
 })
 export class Table2Component {
-
+//these are the columns that we are going to display (note: the columns that we type in here have to match all our row-definitions or it won't appear on the screen.
   displayedColumns: string[] = ['id', 'PV', 'Model', 'Version', 'R2', 'MAE', 'MSE', 'RMSE', 'RSMLE', 'MAPE'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
 }
