@@ -25,7 +25,7 @@ export interface PElement {
 const ELEMENT_DATA: PElement[] = [
     {
       id: 1,
-      PV: "A Denitration Inlet Outlet CO_H0761588",
+      PV: "A",
       Model: "PLSRegression",
       Version: "base Test-24",
       R2: 0.46,
@@ -37,7 +37,7 @@ const ELEMENT_DATA: PElement[] = [
     },
     {
       id: 2,
-      PV: "A quaternary superheater outlet header metal temp (inner wall)_H0764421",
+      PV: "B",
       Model: "PLSRegression",
       Version: "base Test-24",
       R2: 0.57,
@@ -49,7 +49,7 @@ const ELEMENT_DATA: PElement[] = [
     },
     {
       id: 3,
-      PV: "A quaternary superheater outlet header metal temp (outer wall)_H0764430",
+      PV: "C",
       Model: "PLSRegression",
       Version: "base Test-24",
       R2: 0.02,
@@ -61,7 +61,7 @@ const ELEMENT_DATA: PElement[] = [
     },
     {
       id: 4,
-      PV: "A Secondary reheater outlet header metal temp (inner wall)_H0764478",
+      PV: "D",
       Model: "PLSRegression",
       Version: "base Test-24",
       R2: 0.83,
@@ -73,7 +73,7 @@ const ELEMENT_DATA: PElement[] = [
     },
     {
       id: 5,
-      PV: "A Secondary reheater outlet header metal temp (outer wall)_H0764477",
+      PV: "E",
       Model: "PLSRegression",
       Version: "base Test-24",
       R2: 0.71,
@@ -85,7 +85,7 @@ const ELEMENT_DATA: PElement[] = [
     },
     {
       id: 6,
-      PV: "A-AH inlet Gas temperature (Average)_H0761748",
+      PV: "F",
       Model: "Earth",
       Version: "base Test-24",
       R2: 0.91,
@@ -97,7 +97,7 @@ const ELEMENT_DATA: PElement[] = [
     },
     {
       id: 7,
-      PV: "A-AH outlet Gas temperature (Average)_H0765038",
+      PV: "G",
       Model: "Ridge",
       Version: "base Test-24",
       R2: 0.91,
@@ -109,7 +109,7 @@ const ELEMENT_DATA: PElement[] = [
     },
     {
       id: 8,
-      PV: "A-AH inlet Gas temperature (Average)_H0761748",
+      PV: "H",
       Model: "Earth",
       Version: "base Test-24",
       R2: 0.91,
